@@ -19,4 +19,4 @@ This command sequence will:
 
 ## License
 
-MIT © [Luke Edwards](https://lukeed.com)
+MIT © [Juan de Urtubey](https://jdeurt.xyz)
