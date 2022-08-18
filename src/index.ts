@@ -1,6 +1,6 @@
 export function sum(...nums: number[]): number {
-    let i = 0,
+    let index = 0,
         total = 0;
-    for (; i < nums.length; i++) total += nums[i];
+    for (; index < nums.length; index++) total += nums[index];
     return total;
 }
