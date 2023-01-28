@@ -2,18 +2,18 @@
     "ts-node": {
         "transpileOnly": true,
         "compilerOptions": {
-            "module": "commonjs",
-            "sourceMap": true
+            "module": "ES2022",
+            "moduleResolution": "node16"
         },
         "include": ["test/**/*"]
     },
     "compilerOptions": {
-        "target": "esnext",
-        "module": "esnext",
+        "target": "ES2022",
+        "module": "ES2022",
         "declaration": true,
         "declarationDir": "types",
         "forceConsistentCasingInFileNames": true,
-        "moduleResolution": "node",
+        "moduleResolution": "node16",
         "strictNullChecks": true,
         "noImplicitAny": true,
         "strict": true,
