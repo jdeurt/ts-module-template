@@ -1,1 +1,1 @@
-export { max } from "./max.js";
+export { max } from "./max";

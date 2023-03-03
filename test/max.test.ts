@@ -1,6 +1,6 @@
 import { testProp, fc } from "@fast-check/ava";
 
-import { max } from "../src/index.js";
+import { max } from "../src";
 
 testProp(
     "should return the largest number in a set of numbers",
