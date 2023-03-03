@@ -37,12 +37,11 @@
         "publish:major": "npm version major && git push origin main --tags && npm publish"
     },
     "ava": {
-        "extensions": {
-            "ts": "module"
-        },
-        "nodeArguments": [
-            "--loader=ts-node/esm",
-            "--no-warnings"
+        "extensions": [
+            "ts"
+        ],
+        "require": [
+            "ts-node/register"
         ]
     },
     "keywords": [
